@@ -16,15 +16,12 @@ Passos
 $ git commit -m "Adicionando novos arquivos"
 ```
 
-**3**. Adicionei o repositório criado no GitHub 
+**3**. Adicionei o repositório remoto criado no GitHub 
 ```
-$ git remote add origin git@github.com:eduardoejs/aulagit.git"
+$ git remote add origin https://github.com/eduardoejs/aulagit.git
 ```
-**4**. Pull para o projeto
+
+**4**. Por fim, o push do projeto
 ```
-$ git pull origin master
-```
-**5**. Por fim, o push do projeto
-```
-$ git push origin master
+$ git push -u origin master
 ```
